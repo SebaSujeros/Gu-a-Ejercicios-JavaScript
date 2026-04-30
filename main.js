@@ -110,8 +110,20 @@ switch (opcion) {
 
 
 //EJERCICIO 7
-for (let i = 3; i >= 1; i--) {
+/* for (let i = 3; i >= 1; i--) {
   console.log(i);
 }
 
 console.log("Empieza!");
+ */
+
+
+
+//EJERCICIO 8
+let puntajeTotal = 0;
+
+for (let ronda = 1; ronda <= 5; ronda++) {
+  puntajeTotal = puntajeTotal + 10;
+}
+
+console.log(puntajeTotal);
