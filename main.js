@@ -4,6 +4,12 @@ const input = document.getElementById("dato");
 const boton = document.getElementById("btn");
 const mensaje = document.getElementById("mensaje");
 
+const persona = [
+  { nombre: "Luna", vida: 100, tipo: "maga", nivel: 3 },
+  { nombre: "Kai", vida: 120, tipo: "guerrero", nivel: 4 },
+  { nombre: "Nina", vida: 90, tipo: "arquera", nivel: 2 }
+];
+
 //EJERCICIO 1
 /* const nombre = "Luna";
 let edad = 18;
@@ -249,7 +255,7 @@ console.log(jugador);
 
 
 //EJERCICIO 18
-const persona = [
+/* const persona = [
   { nombre: "Luna", vida: 100, tipo: "maga", nivel: 3 },
   { nombre: "Kai", vida: 120, tipo: "guerrero", nivel: 4 },
   { nombre: "Nina", vida: 90, tipo: "arquera", nivel: 2 }
@@ -258,3 +264,13 @@ const persona = [
 for (let i = 0; i < persona.length; i++) {
   console.log(persona[i].nombre + " tiene " + persona[i].vida + " puntos de vida, y es de tipo " + persona[i].tipo + " y es nivel " + persona[i].nivel);
 }
+ */
+
+
+
+//EJERCICIO 19
+const personajesFuertes = persona.filter((persona) => {
+  return persona.nivel >= 3;
+});
+
+console.log(personajesFuertes);
