@@ -230,7 +230,7 @@ console.log(jugador.inventario);
 
 
 //EJERCICIO 17
-const jugador = {
+/* const jugador = {
   nombre: "Kai",
   nivel: 1,
   monedas: 0
@@ -244,3 +244,17 @@ jugador.monedas = jugador.monedas + 50;
 
 // mostrar resultado
 console.log(jugador);
+ */
+
+
+
+//EJERCICIO 18
+const persona = [
+  { nombre: "Luna", vida: 100, tipo: "maga", nivel: 3 },
+  { nombre: "Kai", vida: 120, tipo: "guerrero", nivel: 4 },
+  { nombre: "Nina", vida: 90, tipo: "arquera", nivel: 2 }
+];
+
+for (let i = 0; i < persona.length; i++) {
+  console.log(persona[i].nombre + " tiene " + persona[i].vida + " puntos de vida, y es de tipo " + persona[i].tipo + " y es nivel " + persona[i].nivel);
+}
