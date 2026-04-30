@@ -191,9 +191,19 @@ saludarUsuario("Milo");
 
 
 //EJERCICIO 14
-function calcularVidaRestante(vida, daño) {
+/* function calcularVidaRestante(vida, daño) {
  return vida - daño;
 }
 
 let resultado = calcularVidaRestante(100, 30);
 console.log(resultado);
+ */
+
+
+
+//EJERCICIO 15
+const sumar = (a, b) => {
+ return a + b;
+};
+
+console.log(sumar(10, 5));
