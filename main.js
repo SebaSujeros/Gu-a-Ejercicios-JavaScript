@@ -181,8 +181,19 @@ if (inventario.includes("llave")) {
 
 
 //EJERCICIO 13
-function saludarUsuario(nombre) {
+/* function saludarUsuario(nombre) {
   console.log("Hola, " + nombre);
 }
 
 saludarUsuario("Milo");
+ */
+
+
+
+//EJERCICIO 14
+function calcularVidaRestante(vida, daño) {
+ return vida - daño;
+}
+
+let resultado = calcularVidaRestante(100, 30);
+console.log(resultado);
