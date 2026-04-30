@@ -132,7 +132,7 @@ console.log(puntajeTotal);
 
 
 //EJERCICIO 9
-const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
+/* const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
 
 // primer objeto
 console.log(inventario[0]);
@@ -142,3 +142,13 @@ console.log(inventario[inventario.length - 1]);
 
 // cantidad total
 console.log(inventario.length);
+ */
+
+
+
+//EJERCICIO 10
+const inventario = ["espada", "poción", "llave", "escudo"];
+
+for (let i = 0; i < inventario.length; i++) {
+  console.log(inventario[i]);
+}
