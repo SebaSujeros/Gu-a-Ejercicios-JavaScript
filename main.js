@@ -120,10 +120,25 @@ console.log("Empieza!");
 
 
 //EJERCICIO 8
-let puntajeTotal = 0;
+/* let puntajeTotal = 0;
 
 for (let ronda = 1; ronda <= 5; ronda++) {
   puntajeTotal = puntajeTotal + 10;
 }
 
 console.log(puntajeTotal);
+ */
+
+
+
+//EJERCICIO 9
+const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
+
+// primer objeto
+console.log(inventario[0]);
+
+// último objeto
+console.log(inventario[inventario.length - 1]);
+
+// cantidad total
+console.log(inventario.length);
