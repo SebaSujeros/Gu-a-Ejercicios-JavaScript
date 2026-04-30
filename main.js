@@ -269,8 +269,18 @@ for (let i = 0; i < persona.length; i++) {
 
 
 //EJERCICIO 19
-const personajesFuertes = persona.filter((persona) => {
+/* const personajesFuertes = persona.filter((persona) => {
   return persona.nivel >= 3;
 });
 
 console.log(personajesFuertes);
+ */
+
+
+
+//EJERCICIO 20
+const nombres = persona.map((persona) => {
+  return persona.nombre;
+});
+
+console.log(nombres);
