@@ -299,9 +299,14 @@ console.log(personajeEncontrado);
 
 
 //EJERCICIO 22
-const vidaTotal = persona.reduce((acumulador, persona) => {
+/* const vidaTotal = persona.reduce((acumulador, persona) => {
   return acumulador + persona.vida;
 }, 0);
 
 console.log(vidaTotal);
+ */
 
+
+
+//EJERCICIO 23
+mensaje.textContent = "Bienvenido a la guía de JavaScript";
