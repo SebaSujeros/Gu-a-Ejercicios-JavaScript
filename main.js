@@ -169,10 +169,20 @@ console.log(mochila);
 
 
 //EJERCICIO 12
-const inventario = ["espada", "poción", "llave", "escudo"];
+/* const inventario = ["espada", "poción", "llave", "escudo"];
 
 if (inventario.includes("llave")) {
   console.log("La puerta se abre");
 } else {
   console.log("Necesitás una llave");
 }
+ */
+
+
+
+//EJERCICIO 13
+function saludarUsuario(nombre) {
+  console.log("Hola, " + nombre);
+}
+
+saludarUsuario("Milo");
