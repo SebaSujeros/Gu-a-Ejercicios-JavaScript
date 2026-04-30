@@ -279,8 +279,18 @@ console.log(personajesFuertes);
 
 
 //EJERCICIO 20
-const nombres = persona.map((persona) => {
+/* const nombres = persona.map((persona) => {
   return persona.nombre;
 });
 
 console.log(nombres);
+ */
+
+
+
+//EJERCICIO 21
+const personajeEncontrado = persona.find((persona) => {
+  return persona.nombre === "Nina";
+});
+
+console.log(personajeEncontrado);
