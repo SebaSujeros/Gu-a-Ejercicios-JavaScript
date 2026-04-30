@@ -309,4 +309,15 @@ console.log(vidaTotal);
 
 
 //EJERCICIO 23
-mensaje.textContent = "Bienvenido a la guía de JavaScript";
+/* mensaje.textContent = "Bienvenido a la guía de JavaScript";
+ */
+
+//EJERCICIO 24
+let puntos = 0;
+
+boton.addEventListener("click", function () {
+ // sumar puntos
+ puntos = puntos + 10;
+ // mostrar resultado
+ mensaje.textContent = puntos + " puntos";
+});
