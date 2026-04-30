@@ -157,10 +157,22 @@ for (let i = 0; i < inventario.length; i++) {
 
 
 //EJERCICIO 11
-let mochila = [];
+/* let mochila = [];
 
 mochila.push("linterna");
 mochila.push("comida");
 mochila.push("mapa");
 mochila.pop(mochila.length - 1);
 console.log(mochila);
+ */
+
+
+
+//EJERCICIO 12
+const inventario = ["espada", "poción", "llave", "escudo"];
+
+if (inventario.includes("llave")) {
+  console.log("La puerta se abre");
+} else {
+  console.log("Necesitás una llave");
+}
