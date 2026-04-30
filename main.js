@@ -1,5 +1,9 @@
 console.log("Guía JavaScript iniciada");
 
+const input = document.getElementById("dato");
+const boton = document.getElementById("btn");
+const mensaje = document.getElementById("mensaje");
+
 //EJERCICIO 1
 /* const nombre = "Luna";
 let edad = 18;
@@ -46,8 +50,7 @@ boton.addEventListener("click", function () {
 
 
 //EJERCICIO 4
-
-const input = document.getElementById("dato");
+/* const input = document.getElementById("dato");
 const boton = document.getElementById("btn");
 const mensaje = document.getElementById("mensaje");
 
@@ -57,5 +60,19 @@ boton.addEventListener("click", function () {
     mensaje.textContent = "Puede jugar";
   } else {
     mensaje.textContent = "No puede jugar";
+  }
+});
+ */
+
+//EJERCICIO 5
+boton.addEventListener("click", function () {
+  if (input.value > 70) {
+    mensaje.textContent = "Jugador en buen estado";
+  } else if (input.value > 30) {
+      mensaje.textContent = "Jugador herido";
+  } else if (input.value > 1) {
+      mensaje.textContent = "Jugador en peligro";
+  } else {
+      mensaje.textContent = "Game Over";
   }
 });
