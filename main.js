@@ -25,7 +25,7 @@ console.log("Puntaje total:", puntajeTotal);
 
 
 //EJERCICIO 3
-const input = document.getElementById("dato");
+/* const input = document.getElementById("dato");
 const boton = document.getElementById("btn");
 const mensaje = document.getElementById("mensaje");
 
@@ -40,4 +40,22 @@ boton.addEventListener("click", function () {
 
   // Mostrar el resultado en pantalla
   mensaje.textContent = "Resultado: " + resultado;
+});
+ */
+
+
+
+//EJERCICIO 4
+
+const input = document.getElementById("dato");
+const boton = document.getElementById("btn");
+const mensaje = document.getElementById("mensaje");
+
+
+boton.addEventListener("click", function () {
+  if (input.value > 12) {
+    mensaje.textContent = "Puede jugar";
+  } else {
+    mensaje.textContent = "No puede jugar";
+  }
 });
