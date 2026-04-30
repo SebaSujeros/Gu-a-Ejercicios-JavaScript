@@ -326,7 +326,7 @@ boton.addEventListener("click", function () {
 
 
 //EJERCICIO 25
-boton.addEventListener("click", function () {
+/* boton.addEventListener("click", function () {
   const nombre = input.value.trim();
 
   if (nombre === "") {
@@ -335,3 +335,21 @@ boton.addEventListener("click", function () {
     mensaje.textContent = "Bienvenido/a, " + nombre;
   }
 });
+ */
+
+
+
+//EJERCICIO 26
+const jugador = {
+  nombre: "Luna",
+  puntaje: 1500
+};
+
+// guardar en localStorage
+localStorage.setItem("jugador", JSON.stringify(jugador));
+
+// recuperar desde localStorage
+const jugadorRecuperado = JSON.parse(localStorage.getItem("jugador"));
+
+// mostrar por consola
+console.log(jugadorRecuperado);
