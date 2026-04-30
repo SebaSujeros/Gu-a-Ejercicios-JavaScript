@@ -83,7 +83,7 @@ boton.addEventListener("click", function () {
 
 
 //EJERCICIO 6
-let opcion = "iniciar";
+/* let opcion = "iniciar";
 
 switch (opcion) {
   case "iniciar":
@@ -105,3 +105,13 @@ switch (opcion) {
   default:
     console.log("Opción no válida");
 }
+ */
+
+
+
+//EJERCICIO 7
+for (let i = 3; i >= 1; i--) {
+  console.log(i);
+}
+
+console.log("Empieza!");
