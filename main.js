@@ -147,8 +147,20 @@ console.log(inventario.length);
 
 
 //EJERCICIO 10
-const inventario = ["espada", "poción", "llave", "escudo"];
+/* const inventario = ["espada", "poción", "llave", "escudo"];
 
 for (let i = 0; i < inventario.length; i++) {
   console.log(inventario[i]);
 }
+ */
+
+
+
+//EJERCICIO 11
+let mochila = [];
+
+mochila.push("linterna");
+mochila.push("comida");
+mochila.push("mapa");
+mochila.pop(mochila.length - 1);
+console.log(mochila);
