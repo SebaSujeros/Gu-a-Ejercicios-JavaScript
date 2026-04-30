@@ -313,11 +313,25 @@ console.log(vidaTotal);
  */
 
 //EJERCICIO 24
-let puntos = 0;
+/* let puntos = 0;
 
 boton.addEventListener("click", function () {
  // sumar puntos
  puntos = puntos + 10;
  // mostrar resultado
  mensaje.textContent = puntos + " puntos";
+});
+ */
+
+
+
+//EJERCICIO 25
+boton.addEventListener("click", function () {
+  const nombre = input.value.trim();
+
+  if (nombre === "") {
+    mensaje.textContent = "Ingresá un nombre para continuar";
+  } else {
+    mensaje.textContent = "Bienvenido/a, " + nombre;
+  }
 });
