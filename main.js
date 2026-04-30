@@ -64,8 +64,10 @@ boton.addEventListener("click", function () {
 });
  */
 
+
+
 //EJERCICIO 5
-boton.addEventListener("click", function () {
+/* boton.addEventListener("click", function () {
   if (input.value > 70) {
     mensaje.textContent = "Jugador en buen estado";
   } else if (input.value > 30) {
@@ -76,3 +78,30 @@ boton.addEventListener("click", function () {
       mensaje.textContent = "Game Over";
   }
 });
+ */
+
+
+
+//EJERCICIO 6
+let opcion = "iniciar";
+
+switch (opcion) {
+  case "iniciar":
+    console.log("El juego ha comenzado");
+    break;
+
+  case "configuracion":
+    console.log("Abriendo configuración");
+    break;
+
+  case "creditos":
+    console.log("Mostrando créditos");
+    break;
+
+  case "salir":
+    console.log("Saliendo del juego");
+    break;
+
+  default:
+    console.log("Opción no válida");
+}
